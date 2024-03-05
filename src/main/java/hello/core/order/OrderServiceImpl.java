@@ -11,7 +11,7 @@ public class OrderServiceImpl implements OrderService{
 
     private final MemberRepository memberRepository;
     
-//        private final DiscountPolicy discountPolicy = new FixDiscountPolicy(); //OCP, DIP 위반
+//    private final DiscountPolicy discountPolicy = new FixDiscountPolicy(); //OCP, DIP 위반
 //    private final DiscountPolicy discountPolicy = new RateDiscountPolicy(); //OCP, DIP 위반
     private final DiscountPolicy discountPolicy; //인터페이스만 의존
 
